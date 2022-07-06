@@ -15,15 +15,7 @@ const firebaseConfig = {
   appId: import.meta.env.APPID,
   measurementId: import.meta.env.MEASUREMENTID
 };
-// const firebaseConfig = {
-//   apiKey: "AIzaSyB24fBSzNVyiPXK0Py5qj_IEhwW8BGUZng",
-//   authDomain: "todojs-96223.firebaseapp.com",
-//   projectId: "todojs-96223",
-//   storageBucket: "todojs-96223.appspot.com",
-//   messagingSenderId: "664858168518",
-//   appId: "1:664858168518:web:92b6606b61817559455bc7",
-//   measurementId: "G-P9J0LMQ7VC"
-// };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
